@@ -1,2 +1,2 @@
 # grocery_list
-mini project
+This was a mini TreeHouse project that focused on using Ruby methods to create a grocery list.
