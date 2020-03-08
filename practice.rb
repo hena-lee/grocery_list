@@ -30,7 +30,7 @@ end
 def print_list(grocery_list)
     #print the title of their list using a string interpolation taking the grocery_list hash from the first method and finding the value of the key inside the bracket notation
     print "\nTitle: #{grocery_list["title"]}\n"
-    #using an each loop, iterate through each object of the grocery_list hash and assign each pair the "pair" variable
+    #using an each loop, iterate through each object of the grocery_list hash (which we will push later into the array) and assign each pair the "pair" variable
     grocery_list["items"].each {|pair|
         #put statement expressing each item and quantity using string interpolation and bracket notations to find the values of those keys
         puts "\nItem: #{pair["item"]}"
