@@ -20,7 +20,7 @@ def add_list_items
     print "Quantity: "
     #assign variable the value and convert to integer
     quantity = gets.chomp.to_i
-    #create another hash, this time assigning the keys the user inputs as their values
+    #create another hash, this time assigning the keys with the user inputs as their values
     grocery_items = {"item" => item, "quantity" => quantity}
     #return the hash
     return grocery_items
@@ -28,7 +28,7 @@ end
 
 #third, create a function that accepts a hash and prints the grocery list
 def print_list(grocery_list)
-    #print the title of their list using a string interpolation taking the grocery_list hash from the first method and finding the value of the key inside the bracket notation
+    #print the title of their list using string interpolation with the grocery_list hash from the first method and finding the value of the key inside the bracket notation
     print "\nTitle: #{grocery_list["title"]}\n"
     #using an each loop, iterate through each object of the grocery_list hash (which we will push later into the array) and assign each pair the "pair" variable
     grocery_list["items"].each {|pair|
