@@ -1,4 +1,4 @@
-# grocery_list
+# Grocery List
 This was a mini TreeHouse project that focused on using Ruby functions to create a grocery list.
 
 The main objective was to create three functions that: 
